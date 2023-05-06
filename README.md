@@ -57,12 +57,12 @@ To use the tool in encryption and decrytion mode specify the mode as 'e'. Mode i
 
 a.) Encryption
 ```
-swiftyfiles e -i /file/path -o /output/file/path -p Password 
+swiftyfiles e -i /file/path/to/encrypt -o /encrypted/output/file/path -p Password 
 ```
 
 b.) Decrytion
 ```
-swiftyfiles e -i /file/path/to/decrypt -o /encrypted/output/file -p passwordUsedToEncrypt -d
+swiftyfiles e -i /file/path/to/decrypt -o /decrypted/output/file/path -p passwordUsedToEncrypt -d
 ```
 Flag -d is used to specifiy to decrypt file
 
